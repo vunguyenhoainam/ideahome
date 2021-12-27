@@ -256,7 +256,6 @@
     .container {
       .standard-item {
         @include mq_min_768 {
-          // @include flexbox(flex, space-between, center, nowrap);
           @include flexbox(flex, flex-start, center, nowrap);
         }
         &:nth-child(odd) {
@@ -286,7 +285,6 @@
           .standard-img {
             width: 90%;
             @include mq_min_768 {
-              // width: calc((100% / 2) - 1.5rem);
               width: calc((100% / 2));
             }
           }
@@ -294,7 +292,6 @@
         .standard-img {
           width: 80%;
           @include mq_min_768 {
-            // width: calc((100% / 2) - 1.5rem);
             width: calc((100% / 2));
             margin: 3rem 0 0 0;
           }
@@ -316,8 +313,6 @@
           @include mq_min_768 {
             width: fit-content;
             margin: 0 auto;
-            // width: calc((100% / 2) - 1.5rem);
-            // width: calc((100% / 2));
           }
           @include mq_min_1024 {
             font-size: 2.8rem;
